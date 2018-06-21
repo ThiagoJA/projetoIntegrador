@@ -64,7 +64,7 @@
 }
 
 .navTxt {
-    background-color: rgb(0, 104, 167);
+    background-color: #009a00;
     background-repeat: no-repeat;
     padding-left: 8.33%;
     margin-top: 5px;
@@ -73,10 +73,13 @@
     text-shadow: 2px 1px 8px black;
     position: absolute;
 }
-
+.navTxt a{
+    text-decoration: none;
+    color: white;
+}
 .nav ul {
     list-style: none;
-    background-color: rgb(0, 104, 167);
+    background-color: #009a00;
     width: 100%;
     text-align: center;
     padding: 20px 0px 20px 0px;
@@ -143,14 +146,24 @@ h1 p {
 }
 
 footer {
-    background-color: rgb(0, 104, 167);
+    background-color: #009a00;
 }
 
 .footerMapa a {
     text-decoration: none;
     color: white;
+    transition: all 0.2s;
+    background-image: url(../footerIcons/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: -100px;
 }
-.footerMapa a:hover{
+
+.footerMapa a:hover {
+    background-position: 0px;
+}
+
+.footerMapa a:hover {
     color: black;
 }
 
@@ -163,12 +176,45 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .footerIcons {
     margin-right: 20px;
 }
-.footerIcons img{
+
+.footerIcons img {
     width: 50px;
 }
+
+.fb:hover {
+    content: url(../footerIcons/fb-2.png);
+    width: 50px;
+}
+
+.yt:hover {
+    content: url(../footerIcons/yt-2.png);
+    width: 50px;
+}
+
+.tw:hover {
+    content: url(../footerIcons/tw-2.png);
+    width: 50px;
+}
+
+.lk:hover {
+    content: url(../footerIcons/lk-2.png);
+    width: 50px;
+}
+
+.gg:hover {
+    content: url(../footerIcons/gg-2.png);
+    width: 50px;
+}
+
+.gt:hover {
+    content: url(../footerIcons/gt-2.png);
+    width: 50px;
+}
+
 .footerContainer {
     display: flex;
     justify-content: space-between;
