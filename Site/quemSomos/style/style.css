@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.linha {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.col-01 {
+    width: 8.33%;
+}
+
+.col-02 {
+    width: 16.66%;
+}
+
+.col-03 {
+    width: 25%;
+}
+
+.col-04 {
+    width: 33.33%;
+}
+
+.col-05 {
+    width: 41.66%;
+}
+
+.col-06 {
+    width: 50%;
+}
+
+.col-07 {
+    width: 58.33%;
+}
+
+.col-08 {
+    width: 66, 66%;
+}
+
+.col-09 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91, 66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.navTxt {
+    background-color: #015a89;
+    background-repeat: no-repeat;
+    padding-left: 8.33%;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 1px 8px black;
+    position: absolute;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #015a89;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0px 35px 0px;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 35px 10px 35px 10px;
+    color: white;
+
+}
+
+.nav a:hover {
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.imgWel img {
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 40%;
+}
+
+.txtWel li a {
+}

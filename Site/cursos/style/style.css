@@ -1,0 +1,176 @@
+    * {
+    	box-sizing: border-box;
+    	margin: 0px;
+    }
+@font-face {
+     font-family: tech;
+     src: url(../fonts/ShareTech-Regular.ttf);
+}
+section{
+        background: radial-gradient(circle, #f1f3e5,#738d9e);
+        /* background-image: url(../background/circle-tech-backgorund.jpg); */
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 1000px
+}
+
+    [class^="col-"] {
+    	float: left;
+    	/* border: 1px solid black; */
+        width: 100%;
+    }
+@media screen and (max-width: 400px){
+    .col-1-dp {width: 8.33%;}
+    .col-2-dp {width: 16.66%;}
+    .col-3-dp {width: 25%;}
+    .col-4-dp {width: 33.33%;}
+    .col-5-dp {width: 41.66%;}
+    .col-6-dp {width: 50%;}
+    .col-7-dp {width: 58.33%;}
+    .col-8-dp {width: 66.66%;}
+    .col-9-dp {width: 75%;}
+    .col-10-dp {width: 83.33%;}
+    .col-11-dp {width: 91.66%;}
+    .col-12-dp {width: 100%;}
+    #aoc{margin-left: 100px;}
+}
+@media screen and (min-width: 401px){
+    .col-1-dm {width: 8.33%;}
+    .col-2-dm {width: 16.66%;}
+    .col-3-dm {width: 25%;}
+    .col-4-dm {width: 33.33%;}
+    .col-5-dm {width: 41.66%;}
+    .col-6-dm {width: 50%;}
+    .col-7-dm {width: 58.33%;}
+    .col-8-dm {width: 66.66%;}
+    .col-9-dm {width: 75%;}
+    .col-10-dm {width: 83.33%;}
+    .col-11-dm {width: 91.66%;}
+    .col-12-dm {width: 100%;}
+}
+@media screen and (min-width: 900px){
+    .col-1-dg {width: 8.33%;}
+    .col-2-dg {width: 16.66%;}
+    .col-3-dg {width: 25%;}
+    .col-4-dg {width: 33.33%;}
+    .col-5-dg {width: 41.66%;}
+    .col-6-dg {width: 50%;}
+    .col-7-dg {width: 58.33%;}
+    .col-8-dg {width: 66.66%;}
+    .col-9-dg {width: 75%;}
+    .col-10-dg {width: 83.33%;}
+    .col-11-dg {width: 91.66%;}
+    .col-12-dg {width: 100%;}
+}
+    .linha::after {
+    	display: block;
+    	content: "";
+    	clear: both;
+    }
+
+    header {
+    	text-align: center;
+    }
+#aoc{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: url(../backgrounds-itens/black-pentagon-texture-and-a-little-blue-light-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px -300px;
+    transition: all 0.7s;
+}
+#fw1{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: url(../backgrounds-itens/35945207-tech-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px -300px;
+    transition: all 0.7s;
+}
+#ii{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: url(../backgrounds-itens/Abstract-Patterns-Hexagons-Textures-Wallpaper-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px -300px;
+    transition: all 0.7s;
+}
+#ldp{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: url(../backgrounds-itens/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px -300px;
+    transition: all 0.7s;
+}
+#mc{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: url(../backgrounds-itens/textures_00411726.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px -300px;
+    transition: all 0.7s;
+}
+#so{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: url(../backgrounds-itens/wallpaper2you_227056.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px -300px;
+    transition: all 0.7s;
+}
+#aoc:hover{
+    background-position: 0px;
+    color: white;
+}
+#fw1:hover{
+    background-position: 0px;
+    color: white;
+}
+#ii:hover{
+    background-position: 0px;
+    color: white;
+}
+#ldp:hover{
+    background-position: 0px;
+    color: white;
+}
+#mc:hover{
+    background-position: 0px;
+    color: white;
+}
+#so:hover{
+    background-position: 0px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: tech;
+}
